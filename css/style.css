@@ -1,0 +1,18 @@
+*{box-sizing:border-box}body{font-family:Segoe UI,Arial,sans-serif;margin:0;background:#f4f6f9;color:#222}
+nav{background:#1e3a5f;color:#fff;padding:12px 24px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+nav a{color:#cfe3ff;text-decoration:none}nav a:hover{color:#fff}nav .right{margin-left:auto}
+main{max-width:1000px;margin:24px auto;padding:0 16px}
+h2{margin-top:0}
+.card{background:#fff;border-radius:8px;padding:18px;margin-bottom:18px;box-shadow:0 1px 4px rgba(0,0,0,.1)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin-bottom:18px}
+.stat{background:#fff;border-radius:8px;padding:16px;text-align:center;box-shadow:0 1px 4px rgba(0,0,0,.1)}
+.stat b{display:block;font-size:28px;color:#1e3a5f}
+table{width:100%;border-collapse:collapse;background:#fff}th,td{padding:9px 10px;border-bottom:1px solid #e5e8ec;text-align:left}
+th{background:#eef2f7}tr.overdue td{background:#fff0f0}
+input,select{padding:8px;border:1px solid #bbb;border-radius:5px;width:100%;margin-bottom:10px}
+.row{display:flex;gap:10px;flex-wrap:wrap}.row>*{flex:1;min-width:140px}
+button,.btn{background:#1e3a5f;color:#fff;border:0;padding:8px 14px;border-radius:5px;cursor:pointer;text-decoration:none;font-size:14px}
+button.red{background:#c0392b}button.green{background:#27ae60}
+.msg{padding:10px 14px;border-radius:5px;margin-bottom:14px}.msg.ok{background:#e3f7e8;color:#176b2c}.msg.err{background:#fde7e7;color:#a12020}
+.auth{max-width:380px;margin:60px auto}
+form.inline{display:inline}
